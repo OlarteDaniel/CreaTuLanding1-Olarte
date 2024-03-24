@@ -1,0 +1,38 @@
+.producto-detalles{
+    width: 80%;
+    padding: 20px;
+    max-width: 2000px;
+    display: flex;
+}
+
+.producto-detalles .imagen{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto-detalles .imagen p{
+    align-self: flex-end;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.producto-detalles .imagen img{
+    width: 100%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+
+.producto-detalles .informacion{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+}
+

@@ -1,0 +1,42 @@
+.producto{
+    width: 100%;
+    max-width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+
+.producto img{
+    width: 100%;
+}
+
+.producto .button-link button{
+    font-size: .9em;
+    font-weight: 600;
+    padding: 10px;
+    width: 70%;
+    min-width: 140px;
+    max-width: 200px;
+    background-color: #DC2A32;
+    border: 1px solid #b6232b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.producto .button-link button{
+    text-decoration: none;
+    color: #F9FAFB;
+}
+
+.producto .button-link:hover button{
+    transform: scale(1.2);
+    color: #FFD700;
+}
+

@@ -1,0 +1,16 @@
+.btn-cart{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.btn-cart:hover .cart{
+    transform: scale(1.2);
+    color: #DC2A32;
+}
+
+.btn-cart .cart{
+    font-size: 2em;
+    transition: .3s;
+}

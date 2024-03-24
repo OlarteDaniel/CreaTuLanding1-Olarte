@@ -1,0 +1,40 @@
+.filtrador{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.filtrador .selector{
+    padding: 10px;
+    outline: none; 
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #dc2a32;
+    border: 1px solid #b6232b;
+    transition: background-color 0.3s ease;
+}
+
+.filtrador .selector:hover {
+    background-color: #c82333; 
+}
+
+.filtrador .boton{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #dc2a32; /* Letra roja */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #b6232b; /* Borde rojo */
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.filtrador .boton:hover{
+    background-color: #c82333;
+    border-color: #c82333;
+    color: #fff;
+}
+
