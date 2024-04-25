@@ -11,6 +11,9 @@ Esta es una aplicación web desarrollada en React donde podrás encontrar una am
 - Visualiza y gestiona tu historial de pedidos.
 - Disfruta de una experiencia de compra intuitiva y fácil de usar.
 
+## Deploy
+[TiendaRiverPlate](https://tienda-river.vercel.app) - Deploy en vercel
+
 ## Instalación
 
 Para ejecutar la aplicación de forma local, sigue estos pasos:
