@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Tienda de River Plate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a la tienda de River Plate!
 
-## Available Scripts
+Esta es una aplicación web desarrollada en React donde podrás encontrar una amplia variedad de productos relacionados con el Club Atlético River Plate. Desde camisetas hasta accesorios, nuestra tienda ofrece productos oficiales y de alta calidad para todos los fanáticos del Millonario.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Explora y compra una variedad de productos auténticos del Club Atlético River Plate.
+- Agrega productos al carrito y realiza pedidos de manera segura.
+- Visualiza y gestiona tu historial de pedidos.
+- Disfruta de una experiencia de compra intuitiva y fácil de usar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para ejecutar la aplicación de forma local, sigue estos pasos:
 
-### `npm test`
+1. Clona este repositorio en tu máquina local.
+https://github.com/OlarteDaniel/CreaTuLanding1-Olarte.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navega al directorio del proyecto.
+cd "nombre de carpeta"
 
-### `npm run build`
+3. Instala las dependencias utilizando npm o yarn.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Inicia la aplicación.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Abre tu navegador web y visita `http://localhost:3000` para ver la tienda de River Plate.
 
-### `npm run eject`
+## Tecnologías Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React: Frontend JavaScript library para construir interfaces de usuario.
+- Firebase: Plataforma de desarrollo de aplicaciones móviles y web.
+- HTML/CSS: Lenguajes de marcado y estilos para la estructura y apariencia de la aplicación.
+- SweetAlert2: Biblioteca para mostrar alertas modales en la interfaz de usuario.
+- React Router DOM: Librería de enrutamiento para manejar la navegación en la aplicación de React.
+- React Icons: Librería de iconos para agregar iconografía a la interfaz de usuario.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Esta tienda de River Plate fue creada por Daniel Olarte como parte de un proyecto académico.
 
-## Learn More
+## Datos de contacto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+link a linkedin
+www.linkedin.com/in/daniel-olarte-lamas-601007296

@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react'
-import { getProducts, getProductsByCategory } from '../../data/asyncMock';
 import ItemList from '../itemList/ItemList';
 import './ItemListContainer.css';
 import { Link, useParams } from 'react-router-dom';
 import ItemSelector from '../itemSelector/ItemSelector';
 import { ClockLoader} from 'react-spinners';
+import { db } from '../../config/firebase';
+import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
 
 
 const ItemListContainer = (props) => {
@@ -15,11 +16,24 @@ const ItemListContainer = (props) => {
     useEffect(() =>{
         setloading(true)
 
-        const dataProducts = categoryId ? getProductsByCategory(categoryId) : getProducts()
-        dataProducts
-        .then((el) => setProducts(el))
-        .catch((error) => console.log(error))
-        .finally(() => setloading(false))
+        const getData = async() =>{
+            const queryRef = !categoryId ? collection(db,'productos') : query(collection(db,'productos'), where('categoria', '==',categoryId))
+
+            const response = await getDocs(queryRef);
+
+            const prod = response.docs.map((doc) => {
+                const newObj = {
+                    ...doc.data(),
+                    id: doc.id
+                }
+                return newObj
+            })
+
+            setProducts(prod);
+            setloading(false);
+        }
+
+        getData();
         
     }, [categoryId]);
 

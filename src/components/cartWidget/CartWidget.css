@@ -1,8 +1,17 @@
+.carrito{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.carrito p{
+    color: black;
+}
+
 .btn-cart{
     background-color: transparent;
     cursor: pointer;
-    border: none;
-    
+    border: none;    
 }
 
 .btn-cart:hover .cart{

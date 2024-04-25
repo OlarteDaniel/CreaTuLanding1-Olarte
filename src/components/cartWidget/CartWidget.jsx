@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react'
 import './CartWidget.css';
 import { FaShoppingCart } from "react-icons/fa";
+import CartContext from '../../context/CartContext';
 
 const CartWidget = () => {
+
+    const {getQuantity} = useContext(CartContext);
+
     return (
-        <button className='btn-cart'>
+        <div className="carrito">
+            <button className='btn-cart'>
             <FaShoppingCart className='cart'/>
-        </button>
+            </button>
+            <p>{getQuantity()}</p>
+        </div>
     )
 }
 

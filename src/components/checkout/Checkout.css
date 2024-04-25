@@ -1,0 +1,75 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkout .vacio{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.vacio p {
+    font-size: 18px;
+}
+
+.vacio .direccion {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DC3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.vacio .direccion:hover {
+    background-color: #c82333;
+}
+
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #DC3545;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+}
+
+.inputBox label {
+    display: block;
+    margin-bottom: 5px;
+    color: #DC3545;
+    font-weight: bold;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DC3545;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c82333;
+}
+

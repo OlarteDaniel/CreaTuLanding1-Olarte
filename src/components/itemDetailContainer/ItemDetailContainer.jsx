@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { getProductsById } from '../../data/asyncMock';
 import { useParams } from 'react-router-dom';
 import './ItemDetailContainer.css';
 import ItemDetail from '../itemDetail/ItemDetail';
 import { ClockLoader} from 'react-spinners';
+import { db } from '../../config/firebase';
+import { doc, getDoc } from 'firebase/firestore';
 
 
 const ItemDetailContainer = () => {
@@ -14,10 +15,19 @@ const ItemDetailContainer = () => {
     useEffect(() =>{
         setloading(true)
 
-        getProductsById(productId)
-        .then((el) => SetProduct(el))
-        .catch((error) => console.log(error))
-        .finally(() => setloading(false))
+        const getProducts = async() => {
+            const queryRef = doc(db, 'productos', productId)
+
+            const response = await getDoc(queryRef);
+
+            const newItem = {
+                ...response.data(),
+                id: response.id
+            }
+            SetProduct(newItem);
+            setloading(false);
+        }
+        getProducts();
         
     },[]);
 

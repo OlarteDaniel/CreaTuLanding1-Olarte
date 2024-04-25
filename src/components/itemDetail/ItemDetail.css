@@ -36,3 +36,14 @@
     font-size: 1.2em;
 }
 
+.direccion {
+    color: #DC3545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.direccion:hover {
+    text-decoration: underline;
+}
+
+
